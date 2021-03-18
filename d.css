@@ -1,0 +1,215 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:url(img/aaron-barnaby-dp2m5glF2Y4-unsplash.jpg);
+    background-position: auto ;
+    /* background-size: cover; */
+    background-size: cover;
+    padding-left: 1%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    
+}
+#section2{
+    height: 1000px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)) , url(img/38153.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+#section3{
+    height: 1000px;
+    width: 100%;
+    background-image: url(img/pexels-matej-1074882.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+/* .banner3{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(img/pexels-matej-1074882.jpg);
+    background-size: cover;
+    background-position: center;
+} */
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    /* overflow: hidden;
+    position: fixed; */
+}
+.logo{
+    width: 80px;
+    cursor: pointer;
+}
+/* .menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+} */
+nav{
+    flex: 1;
+    text-align: right;
+    
+    /* overflow: hidden;
+    position: fixed; */
+    /* top: 0; */
+}
+
+nav ul li{
+    list-style: none;
+    padding:0;
+    margin: 0;
+    display: inline-block;
+    margin:40px ;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    
+    width: 80px;
+    overflow: hidden;
+    position: fixed;
+}
+nav ul li a:hover{
+    color: red;
+}
+.row{
+    padding-left: 8%;
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+    line-height: 110px;
+}
+P{
+    color: white;
+    font-size: 15px;
+    line-height: 15px;
+}
+.sign-up-form{
+    padding: 30px 5px ;
+}
+h4{
+    color: white;
+    margin: 0;
+    padding-top: 0px;
+}
+
+/* CARDS */
+
+/* #section2 .cards{
+    transition:0.5s ease-in-out;
+}
+.cards:hover{
+    transform: translateY(-20px);
+} */
+.card1:hover {
+    transform: translateY(-10px);
+
+}
+.card2:hover {
+    transform: translateY(-10px);
+
+}
+.card3:hover {
+    transform: translateY(-10px);
+
+}
+.card1{
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 110px 15px ;
+    background-image: url(img/whatsapp.jpeg);
+    background-position: center;
+    background-size: cover;   
+    transition: 0.4s ease-in-out;
+    
+}
+.card2{
+    width: 380px;
+    height: 500px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 110px 15px;
+    background-image: url(img/whatsapp1.jpeg);
+    background-position: center;
+    background-size: cover;   
+    transition: 0.4s ease-in-out;
+}
+
+.card3{
+    width: 380px;
+    height: 500px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 110px 15px;
+    background-image: url(img/whatsapp2.jpeg);
+    background-position: center;
+    background-size: cover;   
+    transition: 0.4s ease-in-out;
+}
+
+#section2,#section3 h1{
+    text-align: center;
+}
+#section2 .section2gallery{
+    color: white;
+}
+
+
+.para{
+    padding-top: 10%;
+    padding-left: 8%;
+}
+.para h2{
+    color: black;
+}
+.para h4{
+    color: black;
+}
+
+
+.about{
+    width: 700px;
+    height: 500px;
+    display: inline-block;
+    border-radius: 10px;
+    padding-left: 0px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 130px 110px ;
+    background-color: white;
+    background-position: center;
+    background-size: cover;   
+}
